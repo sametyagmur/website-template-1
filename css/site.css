@@ -1,174 +1,173 @@
-body{
-
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-header{
-    background-image: url(../images/main-page.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 625px;
+header {
+  background-image: url(../images/main-page.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 625px;
 }
-header .nav-area{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 10%;
-    
-}   
-
-.logo{
-    cursor: pointer;
-    color:  #21bae0;
-    font-size: 35px;
-    font-family: 'Norican', cursive;
-    
+header .nav-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%;
 }
 
-
-.nav_links li{
-    display: inline-block;
-    padding:0 20px;
+.logo {
+  cursor: pointer;
+  color: #21bae0;
+  font-size: 35px;
+  font-family: "Norican", cursive;
 }
 
-.nav_links li a{
-    transition: all 0.3s ease 0s;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-     padding:5px;
+.nav_links li {
+  display: inline-block;
+  padding: 0 20px;
 }
-.nav_links li a:hover{
-  color:  #ffffff;
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+.nav_links li a:hover {
+  color: #ffffff;
   background-color: #21bae0;
   border-radius: 50px;
-  padding:5px;
+  padding: 5px;
 }
-.cntc{
-    padding:9px 25px;
-    background-color: #21bae0;
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    color: white;
-}
-
-.cntc:hover{
-    background-color: rgba(0,136,169,0.8);
-}
-header .main{
-    text-align: center;
-    color: #ffffff;
-    padding: 30px 0 15px 0;
-}
-header .main .p1{
-    font-size: 40px;
-    font-family: 'Epilogue', sans-serif;
-    padding-top:80px;
-    padding-bottom: 40px;
+.cntc {
+  padding: 9px 25px;
+  background-color: #21bae0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
 }
 
-header .main .p2{
-    font-family: 'Norican';
-    font-size: 70px;
+.cntc:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
-.main .tell{
-    padding: 20px;
+header .main {
+  text-align: center;
+  color: #ffffff;
+  padding: 30px 0 15px 0;
 }
-.main .tell button{
-    border-radius: 10px;
-    border:none;
-    background-color: #ffff;
-    text-decoration: none;
-    padding:20px 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size:  25px;
-    cursor: pointer;
-    color: #21bae0;;
-    
+header .main .p1 {
+  font-size: 40px;
+  font-family: "Epilogue", sans-serif;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
 
+header .main .p2 {
+  font-family: "Norican";
+  font-size: 70px;
+}
+.main .tell {
+  padding: 20px;
+}
+.main .tell button {
+  border-radius: 10px;
+  border: none;
+  background-color: #ffff;
+  text-decoration: none;
+  padding: 20px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  color: #21bae0;
 }
 
 .main-button {
-    padding-top: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.services {
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+.services .service-parag-main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  padding-top: 60px;
+}
+.services .service-parag-main .service-parag-1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.services .service-parag-main .service-parag-2 {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+  padding-top: 20px;
+}
+.container {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.container .icon {
+  width: 125px;
+  height: 125px;
+  font-size: 50px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #f5dd08;
+  line-height: 125px;
+  margin: 0 auto;
+}
+.container .parag-1 {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.container .parag-2 {
+  font-size: 16px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+  padding: 0 10px;
+  line-height: 1.5;
+}
+
+.portfolio {
+  background-color: rgba(128, 128, 128, 0.151);
+  text-align: center;
+  padding: 30px 0;
+}
+.portfolio .port-parag .port-1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.portfolio .port-parag .port-2 {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+  padding-top: 20px;
+}
+.slider img {
+  width: 100%;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.slider p{
     font-size: 20px;
-    
-}
-.services{
-    text-align: center;
-}
-.services .service-parag-main{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
-    padding-top: 60px;
-}
-.services .service-parag-main .service-parag-1{
-    font-size: 35px;
-    font-weight: 600;
-}
-.services .service-parag-main .service-parag-2{
-font-size: 18px;
-font-family: 'Epilogue', sans-serif;
-opacity: 0.8;
-padding-top: 20px;
-}
-.container{
-    display: flex;
-    padding-top: 80px;
-    padding-bottom:50px;
-}
-.container .icon{
-    width: 125px;
-    height: 125px;
-    font-size: 50px;
-    border-radius: 50%;
-    color: #ffffff;
-    background-color: #f5dd08;
-    line-height: 125px;
-margin: 0 auto;
-}
-.container .parag-1{
-   font-size: 22px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-weight: 600;
-   padding-top:15px;
-   padding-bottom: 10px;
-}
-
-.container .parag-2{
-    font-size: 16px;
-    font-family: 'Epilogue', sans-serif;
-    opacity: 0.8;
-    padding:0 10px;
-    line-height: 1.5;
- }
- .portfolio-area{
-     background-color: rgba(223, 219, 219, 0.719);
-     padding-top:60px;
-     text-align: center;
- }
- .port-parag .parag .port-1{
-     padding-top:40px;
-     text-align: center;
- }
- .portfolio{
-    padding-top: 40px;
- }
- .portfolio img{
-     width: 100%;
-     width: 500px;
-     height: 400px;
-     margin: 0 auto;
-
- }
-.portfolio p{
+    font-family: "Epilogue", sans-serif;
     padding-top: 10px;
-    font-weight: 700;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
 }

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.portfolio').slick({
+    $('.slider').slick({
     dots: true,
     infinite: true,
     speed: 300,
@@ -18,3 +18,4 @@ $(document).ready(function(){
         
     );
 });
+
