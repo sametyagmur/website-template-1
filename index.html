@@ -41,13 +41,13 @@
         <a class="logo" href="">Your Agency</a>
         <nav>
           <ul class="nav_links">
-            <li><a class="js-scroll-trigger" href="#">SERVICES</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">TEAM</a></li>
+            <li><a class="js-scroll-trigger" href="#services">SERVICES</a></li>
+            <li><a class="js-scroll-trigger" href="#portfolio">PORTFOLIO</a></li>
+            <li><a class="js-scroll-trigger" href="#about">ABOUT</a></li>
+            <li><a class="js-scroll-trigger" href="#team">TEAM</a></li>
           </ul>
         </nav>
-        <a href="#"><button class="cntc">Contact</button></a>
+        <a href="#contact"><button class="cntc">Contact</button></a>
       </div>
       <div class="main">
         <div class="main-parag">
@@ -107,7 +107,7 @@
       </div>
     </div>
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <div class="port-parag">
         <p class="port-1">PORTFOLIO</p>
         <p class="port-2">lorem ipsum dolor sit amet consectetur</p>
@@ -129,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div class="about">
+    <div class="about" id="about">
       <div class="about-parag">
         <div class="about-parag-main">
           <p class="about-parag-1">ABOUT</p>
@@ -196,7 +196,7 @@
       </div>
     </div>
 
-    <div class="team">
+    <div class="team" id="team">
       <div class="team-parag">
         <div class="team-parag-main">
           <p class="team-parag-1">OUR TEAM</p>
@@ -204,47 +204,61 @@
         </div>
       </div>
 
-
-
       <div class="team-content">
-      <div class="person">
-        <img src="images/team-1.jpg" alt="">
-        <div class="person-dsc">
-          <p class="p-name">Lorem Ipsum</p>
-          <p class="p-title">Lead Designer</p>
+        <div class="person">
+          <img src="images/team-1.jpg" alt="" />
+          <div class="person-dsc">
+            <p class="p-name">Lorem Ipsum</p>
+            <p class="p-title">Lead Designer</p>
+          </div>
+          <div class="person-social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
-        <div class="person-social">
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <div class="person">
+          <img src="images/team-2.jpg" alt="" />
+          <div class="person-dsc">
+            <p class="p-name">Lorem Ipsum</p>
+            <p class="p-title">Lead Marketer</p>
+          </div>
+          <div class="person-social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
-      </div>
-      <div class="person">
-        <img src="images/team-2.jpg" alt="">
-        <div class="person-dsc">
-          <p class="p-name">Lorem Ipsum</p>
-          <p class="p-title">Lead Marketer</p>
-        </div>
-        <div class="person-social">
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-      <div class="person">
-        <img src="images/team-3.jpg" alt="">
-        <div class="person-dsc">
-          <p class="p-name">Lorem Ipsum</p>
-          <p class="p-title">Lead Developer</p>
-        </div>
-        <div class="person-social">
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <div class="person">
+          <img src="images/team-3.jpg" alt="" />
+          <div class="person-dsc">
+            <p class="p-name">Lorem Ipsum</p>
+            <p class="p-title">Lead Developer</p>
+          </div>
+          <div class="person-social">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="contact-area" id="contact">
+      <div class="contact-parag">
+        <div class="contact-parag-main">
+          <p class="contact-parag-1">CONTACT US</p>
+          <p class="contact-parag-2">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
     </div>
+
+    <form class="contact-form">
+      <p></p><input type="text" placeholder="Name"></p>
+      <p></p><input type="email" placeholder="E-mail"></p>
+      <p></p><input type="text" placeholder="Phone"></p>
+      <p><textarea name="" id="" cols="30" rows="10">Your Message...</textarea></p>
+     <button class="contact-button">Send</button>
+    </form>
 
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/slick/slick.min.js"></script>

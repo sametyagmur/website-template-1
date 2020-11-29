@@ -6,19 +6,23 @@ $(document).ready(function(){
     slidesToShow: 1,
     adaptiveHeight: true
   });
+
+
+
+
+  
   });
 
 
   $('.js-scroll-trigger').click(function () {
+      var linkHref = $("this").attr("href");
     $("html, body").animate(
         {
-            scrollTop: $("#services").offset().top - 0,
+            scrollTop: $("this").offset().top - 0,
         },
+        
         1000
         
-
-      
-        
-    );  
+    );
 });
 

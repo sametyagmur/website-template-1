@@ -260,6 +260,7 @@ header .main .p2 {
 }
 .team{
   background-color: rgba(128, 128, 128, 0.151);
+  height: 600px;
 }
 .team-content{
   display: flex;
@@ -323,4 +324,58 @@ header .main .p2 {
 .person-social i:hover{
   opacity: 1;
   cursor: pointer;
+}
+.contact-area{
+background-attachment: fixed;
+background-image: url(../images/map.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 600px;
+
+}
+.contact-parag {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-parag .contact-parag-1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-parag .contact-parag-2 {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+  padding-top: 20px;
+}
+.contact-form{
+text-align: center;
+margin:0;
+}
+
+input[type="text"], input[type=email], textarea{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 350px;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+.contact-button{
+border: none;
+font-size: 15px ;
+padding: 10px 20px;
+color: #ffff;
+background-color: #21bae0;
+border-radius: 5px;
+font-weight: 800;
+}
+.textarea{
+  font:Verdana, Geneva, Tahoma, sans-serif;
 }
