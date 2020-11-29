@@ -258,3 +258,69 @@ header .main .p2 {
   opacity: 0.8;
   padding-top: 10px;
 }
+.team{
+  background-color: rgba(128, 128, 128, 0.151);
+}
+.team-content{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+
+.team-parag {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-parag .team-parag-1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.team-parag .team-parag-2 {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+  padding-top: 20px;
+}
+
+.team img{
+  border-radius: 50%;
+  border: 8px solid c
+  width: 200px;
+  height: 200px;
+}
+
+.person{
+  text-align: center;
+  line-height: 1.5;
+}
+.person .p-name{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  font-weight: 650;
+  color: #21bae0;
+}
+
+.person .p-title{
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+}
+
+.person-social i{
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: black;
+  color: #ffff;
+  opacity: 0.7;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.person-social i:hover{
+  opacity: 1;
+  cursor: pointer;
+}
