@@ -176,33 +176,85 @@ header .main .p2 {
   padding-top: 10px;
 }
 
-.ab-main{
+.ab-main {
   text-align: center;
+  padding-bottom: 20px;
 }
-.main-1{
+.main-1 {
   font-size: 35px;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.main-2{
+.main-2 {
   font-size: 18px;
   font-family: "Epilogue", sans-serif;
   opacity: 0.8;
   padding-top: 20px;
 }
 
-.about img{
+.about-parag {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about-parag .about-parag-1 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-parag .about-parag-2 {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+  padding-top: 20px;
+}
+
+.timeline-image {
+  text-align: center;
+  position: relative;
+  padding-bottom: 100px;
+}
+.t-image {
+  border: 8px solid #21bae0;
   border-radius: 50%;
-  border:5px solid gray;
   width: 125px;
   height: 125px;
-  
 }
-.ab-cont-1{
-  width: 100%;
+
+.timeline-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40%;
+  text-align: right;
+  line-height: 1.5;
 }
-.ab{
-  display: flex;
-  width: 50%;
+
+.timeline-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40%;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.tp-1 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tp-2 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tp-3 {
+  font-size: 15px;
+  font-family: "Epilogue", sans-serif;
+  opacity: 0.8;
+  padding-top: 10px;
 }
