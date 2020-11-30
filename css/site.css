@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-image: url(../images/main-page.jpg);
   background-position: center;
@@ -10,6 +11,9 @@ header {
   background-repeat: no-repeat;
   height: 625px;
 }
+
+/*Navigation area*/
+
 header .nav-area {
   display: flex;
   justify-content: space-between;
@@ -21,6 +25,9 @@ header .nav-area {
   color: #21bae0;
   font-size: 35px;
   font-family: "Norican", cursive;
+  background-color: #ffff;
+  border-radius: 10%;
+  padding: 10px 20px;
 }
 
 .nav_links li {
@@ -37,12 +44,14 @@ header .nav-area {
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
 }
+
 .nav_links li a:hover {
   color: #ffffff;
   background-color: #21bae0;
   border-radius: 50px;
   padding: 5px;
 }
+
 .cntc {
   padding: 9px 25px;
   background-color: #21bae0;
@@ -56,11 +65,15 @@ header .nav-area {
 .cntc:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
+
+/*Main page header*/
+
 header .main {
   text-align: center;
   color: #ffffff;
   padding: 30px 0 15px 0;
 }
+
 header .main .p1 {
   font-size: 40px;
   font-family: "Epilogue", sans-serif;
@@ -72,6 +85,9 @@ header .main .p2 {
   font-family: "Norican";
   font-size: 70px;
 }
+
+/*Main page button*/
+
 .main .tell {
   padding: 20px;
 }
@@ -92,31 +108,42 @@ header .main .p2 {
   padding-top: 20px;
   font-size: 20px;
 }
-.services {
-  text-align: center;
-  padding-bottom: 40px;
-  margin-bottom: 20px;
-}
-.services .service-parag-main {
+
+/*Header for each page*/
+
+.header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #000000;
   padding-top: 60px;
+  text-align: center;
 }
-.services .service-parag-main .service-parag-1 {
+
+.header .p1 {
   font-size: 35px;
   font-weight: 600;
 }
-.services .service-parag-main .service-parag-2 {
+
+.header .p2 {
   font-size: 18px;
   font-family: "Epilogue", sans-serif;
   opacity: 0.8;
   padding-top: 20px;
 }
+
+/*Services page*/
+
+.srv {
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
 .container {
   display: flex;
   padding-top: 80px;
   padding-bottom: 50px;
 }
+
 .container .icon {
   width: 125px;
   height: 125px;
@@ -127,6 +154,7 @@ header .main .p2 {
   line-height: 125px;
   margin: 0 auto;
 }
+
 .container .parag-1 {
   font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -143,72 +171,42 @@ header .main .p2 {
   line-height: 1.5;
 }
 
-.portfolio {
+/*portfolio page*/
+
+.pfolio {
   background-color: rgba(128, 128, 128, 0.151);
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.portfolio .port-parag .port-1 {
-  font-size: 35px;
-  font-weight: 600;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.portfolio .port-parag .port-2 {
-  font-size: 18px;
-  font-family: "Epilogue", sans-serif;
-  opacity: 0.8;
-  padding-top: 20px;
-}
+
+/*portfolio page slick slider */
+
 .slider .slider-area {
   width: 100%;
 }
+
 .slider img {
   width: 600px;
   height: 400px;
-
   margin: 0 auto;
   padding-top: 30px;
 }
+
 .slider p {
   font-size: 20px;
   font-family: "Epilogue", sans-serif;
   padding-top: 10px;
 }
 
-.ab-main {
-  text-align: center;
+/*Timeline page*/
+
+.ab {
   padding-bottom: 20px;
 }
-.main-1 {
-  font-size: 35px;
-  font-weight: 600;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-.main-2 {
-  font-size: 18px;
-  font-family: "Epilogue", sans-serif;
-  opacity: 0.8;
-  padding-top: 20px;
-}
-
-.about-parag {
-  text-align: center;
+.timeline {
   padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.about-parag .about-parag-1 {
-  font-size: 35px;
-  font-weight: 600;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.about-parag .about-parag-2 {
-  font-size: 18px;
-  font-family: "Epilogue", sans-serif;
-  opacity: 0.8;
-  padding-top: 20px;
 }
 
 .timeline-image {
@@ -216,6 +214,7 @@ header .main .p2 {
   position: relative;
   padding-bottom: 100px;
 }
+
 .t-image {
   border: 8px solid #21bae0;
   border-radius: 50%;
@@ -252,65 +251,54 @@ header .main .p2 {
   font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .tp-3 {
   font-size: 15px;
   font-family: "Epilogue", sans-serif;
   opacity: 0.8;
   padding-top: 10px;
 }
-.team{
+
+/*Team page*/
+
+.ourteam {
   background-color: rgba(128, 128, 128, 0.151);
   height: 600px;
 }
-.team-content{
+
+.team-content {
   display: flex;
   justify-content: space-around;
   padding-bottom: 80px;
-}
-
-.team-parag {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.team-parag .team-parag-1 {
-  font-size: 35px;
-  font-weight: 600;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.team-parag .team-parag-2 {
-  font-size: 18px;
-  font-family: "Epilogue", sans-serif;
-  opacity: 0.8;
   padding-top: 20px;
 }
 
-.team img{
+.ourteam img {
   border-radius: 50%;
-  border: 8px solid c
+  border: 8px solid #21bae0;
   width: 200px;
   height: 200px;
 }
 
-.person{
+.person {
   text-align: center;
   line-height: 1.5;
 }
-.person .p-name{
+
+.person .p-name {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 22px;
   font-weight: 650;
   color: #21bae0;
 }
 
-.person .p-title{
+.person .p-title {
   font-size: 18px;
   font-family: "Epilogue", sans-serif;
   opacity: 0.8;
 }
 
-.person-social i{
+.person-social i {
   border-radius: 50%;
   border: 1px solid black;
   background-color: black;
@@ -321,61 +309,50 @@ header .main .p2 {
   line-height: 50px;
 }
 
-.person-social i:hover{
+.person-social i:hover {
   opacity: 1;
   cursor: pointer;
 }
-.contact-area{
-background-attachment: fixed;
-background-image: url(../images/map.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-height: 600px;
 
+/*Contact page*/
+
+.c-area {
+  background-attachment: fixed;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
 }
-.contact-parag {
+
+.contact-form {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.contact-parag .contact-parag-1 {
-  font-size: 35px;
-  font-weight: 600;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.contact-parag .contact-parag-2 {
-  font-size: 18px;
-  font-family: "Epilogue", sans-serif;
-  opacity: 0.8;
+  margin: 0;
   padding-top: 20px;
 }
-.contact-form{
-text-align: center;
-margin:0;
-}
 
-input[type="text"], input[type=email], textarea{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+input[type="text"],
+input[type="email"],
+textarea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 350px;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-.contact-button{
-border: none;
-font-size: 15px ;
-padding: 10px 20px;
-color: #ffff;
-background-color: #21bae0;
-border-radius: 5px;
-font-weight: 800;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
-.textarea{
-  font:Verdana, Geneva, Tahoma, sans-serif;
+.contact-button {
+  border: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  color: #ffff;
+  background-color: #21bae0;
+  border-radius: 5px;
+  font-weight: 800;
+}
+.textarea {
+  font: Verdana, Geneva, Tahoma, sans-serif;
 }
